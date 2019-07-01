@@ -1,6 +1,18 @@
 #!/bin/bash
 
-echo 'Foo' > this-commit.txt
-echo 'Bar' > next-commit.txt
+echo "This " > file.txt
 
-git add .
+echo "should " >> file.txt
+
+echo "be " >> file.txt
+
+
+echo "one " >> file.txt
+
+
+echo "commit " >> file.txt
+
+
+echo "only." >> file.txt
+git add file.txt
+git commit -m "Fsck... Fixes #329"

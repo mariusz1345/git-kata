@@ -5,3 +5,4 @@ These are:
  * red
  * blue
  * green
+ * white
